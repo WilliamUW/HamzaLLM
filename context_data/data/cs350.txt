@@ -1,0 +1,223 @@
+Course Outline
+Lectures
+LEC 001	01:00-02:20 Tue Thu	MC 1056	Kevin Lanctot
+LEC 002	02:30-03:50 Tue Thu	MC 1056	Kevin Lanctot
+LEC 003	08:30-09:50 Tue Thu	MC 4045	Irene Huang
+
+Online Discussion Forum (Piazza)
+We will be using a system for class-related discussions and announcements called Piazza.
+Students should visit the Piazza homepage for this course.
+You will need to be added as a student to this course in Piazza before being able to access the above link. Students who are enrolled in the course when classes start may receive an e-mail inviting them to Piazza. If you do not receive this e-mail, or if you enroll after classes start, you can add yourself as a student to the course using your Waterloo e-mail.
+You will be expected to follow the course related postings and messages on Piazza.
+One of the first things you may want to do after logging into Piazza is adjust your account settings. Piazza can generate a large volume of e-mails, and these settings may be modified to reduce the frequency of received notifications (as well as what types of notifications are received).
+Please post questions and comments about the course and assignments there.
+Do not publically post code or partial solutions to assignments on Piazza. If you wish to, you can post questions that are private to the course staff (only the instructors will be able to see them) and you can also post questions and comments that are anonymous to the rest of the class (other students will see the post, but not the identity of the poster).
+There are also Piazza apps available for iOS and Android.
+Course Personnel and Office Hours
+Instructors
+Name	Contact	Office Hours
+Kevin Lanctot	kevin.lanctot@uwaterloo.ca
+(Include CS350 in subject line)
+Please use Piazza for general questions and comments.	Tue/Thu 11:45-12:45
+DC 3106 (or MS Teams through email request)
+or by appointment.
+Irene Huang	yqhuang@uwaterloo.ca
+(Include CS350 in subject line)
+Please use Piazza for general questions and comments.	Thursdays 15:30 – 16:30
+DC 2108
+or by appointment.
+Instructional Apprentices (IA)
+Name	Contact	Office Hours
+Zhenbo Li	Please use Piazza for questions and comments.	TBD
+Emil Tsalapatis	Please use Piazza for questions and comments.	Wed 4:00PM-5:00PM
+DC 3552D
+Instructional Support Coordinator (ISC)
+Name	Contact	Office Location
+Olga Zorin	ozorin@uwaterloo.ca, x33005
+Contact for questions regarding verification of illness or other documents, enrollment, alternative arrangements, or other administrative questions.	DC 3115
+
+Course Description
+An introduction to the fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security.
+
+Course Objectives
+Provides an introduction to operating systems: what they do, how they are used, and how they are implemented.
+
+Course Overview
+Operating System Introduction (2 hours)
+The roles of an operating system. Historical overview of operating system development. Operating system architectures.
+Multi-Programming (6 hours)
+Processes and threads, system calls, context switching. Managing processor time. Types of scheduling, scheduling algorithm.
+Concurrency (7 hours)
+Principles of concurrency. Mutual exclusion and semaphores. Deadlock detection and prevention.
+Memory Management (8 hours)
+Simple memory management techniques: partitioning, dynamic loading, simple segmentation. Virtual addressing and address translation. Virtual memory management: segmentation, paging, caching strategies. Load control, swapping, and thrashing.
+Device Management (3 hours)
+Physical structure and properties of devices, device control and interaction, blocking, buffering, disk scheduling, DMA.
+File Systems (6 hours)
+File naming, types and logical organization. Space allocation and management. File system interfaces. Implementation strategies. Case studies.
+Virtual Machines (2 hours)
+Virtualization, Type 1 and Type 2 Hypervisors, privilege, interrupts, virtual memory, I/O.
+Recommended text
+Operating Systems: Three Easy Pieces by R. Arpaci-Dusseau and A. Arpaci-Dusseau.
+
+This is an on-line textbook, available as a free download in PDF format. Links to the textbook are available from the reading materials page.
+
+Required Course Notes
+You are required to bring the course notes with you to class and to take notes during class. The course notes are available from LEARN. You can print them or download them to your computer or mobile device for use during class. The course notes are not intended to be stand alone. Class attendance is required.
+
+Assignments
+All the assignments should be submitted electronically. Submission instructions are found in the assignment specifications.
+
+Assignment	Weight of course grade
+A0	2%
+A1	9%
+A2a	9%
+A2b	9%
+A3	11%
+TOTAL	40%
+Assignments marks can be viewed using command line. Instructions will be posted on Piazza.
+
+If you cannot complete an assignment by the deadline (even after using the available slipdays) due to a documented reasons (e.g., a VIF), the weight of the assignment may be transferred to the other assignments, subject to instructor approval. Please contact the ISC with your documentation to request any accommodations for assignments. If possible, please make contact before the assignment deadline to ensure your accommodation is approved in time.
+Important: no more than ONE assignment may be excluded from the final grade, regardless of your circumstances. If your circumstances are such that that level of accommodation is insufficient, consult an academic advisor to discuss your options.
+
+Assignment marking reappraisal requests:
+If there is a problem with the marking your assignment, you may request that your assignment be reappraised. For each assignment there will be a deadline for reappraisal requests. To do this:
+
+Print and fill out a reappraisal form, on which you should describe (briefly) what the problem is.
+Drop your form off with the course instructor after lecture or during office hours.
+Slip Days Policies
+Each assignment has a due date and a due time, which will be posted on the course web page. Assignments use a system of "slip days" to give you some flexibility with the assignment deadlines. Each person starts the term with seven (7) slip days, which can be used to push back assignment deadlines. Slip days work as follows:
+
+Pushing an assignment deadline back by one day (24 hours) costs one (1) slip day.
+An assignment deadline can be pushed back at most four (4) days.
+Partial slip days are not allowed, e.g., it is not possible to use part of a slip day to push a deadline back by six hours.
+Slip days are not transferable from one student to another.
+We've increased the slip days limit to automatically accomodate short-term absence requests. We will not accomodate any further requests.
+Assignments that are submitted late (with no slip days to cover them) will not be accepted and will receive a mark of 0%.
+
+Grading Scheme
+First, component marks will be determined as follows:
+
+Component	Weight	Description
+A	40%	Your weighted average grade on assignments, expressed as a percentage, and calculated according to the individual assignment weights above.
+M	20%	Your midterm exam grade, expressed as a percentage.
+F	40% (or 35%, if needs to be online)	Your final exam grade, expressed as a percentage.
+Note that if the final exam has to be scheduled online, the exam portion of the grade difference for the online exam will be spread across the assignments.
+
+Then, we will apply the following algorithm to determine your final course grade:
+
+Normal  = 0.40*A + 0.20*M + 0.40*F 
+Exam    = (0.20*M + 0.40*F) / 0.60
+
+if ( Exam < 50% ) {
+    Course Grade = min (46, Normal, Exam)
+} else {
+    Course Grade = Normal
+}
+    
+Note in particular that you must pass the weighted average of the midterm and the final exam in order to pass the course.
+
+Mental Health
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support.
+
+On-campus Resources
+
+Campus Wellness https://uwaterloo.ca/campus-wellness/
+Counselling Services: counselling.services@uwaterloo.ca, 519-888-4567 ext 32655, Needles Hall North 2nd floor, (NH 2401)
+MATES: one-to-one peer support program offered by Federation of Students (FEDS) and Counselling Services: mates@uwaterloo.ca
+Health Services service: located across the creek from Student Life Centre, 519-888-4096
+Off-campus Resources
+
+Good2Talk (24/7): Free confidential help line for post-secondary students. Phone: 1-866-925-5454
+Here 24/7: Mental Health and Crisis Service Team. Phone: 1-844-437-3247
+OK2BME: set of support services for lesbian, gay, bisexual, transgender or questioning teens in Waterloo. Phone: 519-884-0000 extension 213
+Diversity
+It is our intent that students from all diverse backgrounds and perspectives be well served by this course, and that students' learning needs be addressed both in and out of class. We recognize the immense value of the diversity in identities, perspectives, and contributions that students bring, and the benefit it has on our educational environment. Your suggestions are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups. In particular:
+
+We will gladly honour your request to address you by an alternate/preferred name or gender pronoun. Please advise us of this preference early in the semester so we may make appropriate changes to our records.
+We will honour your religious holidays and celebrations. Please inform of us these at the start of the course.
+We will follow AccessAbility Services guidelines and protocols on how to best support students with different learning needs.
+Academic Integrity
+Academic Integrity: In order to maintain a culture of academic integrity, members of the University of Waterloo community are expected to promote honesty, trust, fairness, respect and responsibility. All members of the UW community are expected to hold to the highest standard of academic integrity in their studies, teaching, and research. The Office of Academic Integrity's website contains detailed information on UW policy for students and faculty. This site explains why academic integrity is important and how students can avoid academic misconduct. It also identifies resources available on campus for students and faculty to help achieve academic integrity in - and out - of the classroom.
+
+MOSS (Measure of Software Similarities) is used in this course as a mean of comparing students' assignments to ensure academic integrity.
+
+Grievance: A student who believes that a decision affecting some aspect of his or her university life has been unfair or unreasonable may have grounds for initiating a grievance, as outlined by Policy 70 - Student Petitions and Grievances. When in doubt please be certain to contact the department's administrative assistant who will provide further assistance.
+
+Discipline: A student is expected to know what constitutes academic integrity, to avoid committing an academic offence, and to take responsibility for his or her actions. A student who is unsure whether an action constitutes an offence, or who needs help in learning how to avoid offences (e.g., plagiarism, cheating) or about 'rules' for group work/collaboration should seek guidance from the course instructor, academic advisor, or the undergraduate Associate Dean. For information on categories of offences and types of penalties, students should refer to Policy 71 - Student Discipline Students may also view the University's Guidelines for the Assessment of Penalties.
+
+Avoiding Academic Offenses: Most students are unaware of the line between acceptable and unacceptable academic behaviour, especially when discussing assignments with classmates and using the work of other students. For information on commonly misunderstood academic offenses and how to avoid them, students should refer to the Faculty of Mathematics Cheating and Student Academic Discipline Guidelines.
+
+Please Notes that: If you took the course previously and wish to reuse you assignments, you may, IF:
+
+you request permission, by email, of an instructor, AND
+your previous assignments were NOT penalized for cheating previously, AND
+you understand that we will be running anti-cheating software on your submission again AND the results may differ.
+Appeals: A decision made or penalty imposed under Policy 70 - Student Petitions and Grievances (other than a petition) or Policy 71 - Student Discipline may be appealed if there is grounds to do so. A student who believes he or she has a ground for an appeal should refer to Policy 72 - Student Appeals.
+
+Note for Students with Disabilities: The AccessAbility Services (AAS), located in Needles Hall, Room 1401, collaborates with all academic departments to arrange appropriate accommodations for students with disabilities without compromising the academic integrity of the curriculum. If you require academic accommodations to lessen the impact of your disability, please register with them at the beginning of each academic term.
+
+Assignment Information
+Assignment Policies:
+Slip Days - Submitting an assignment after the deadline.
+Assignment marking reappraisal requests:
+If there is a problem with the marking your assignment, you may request that your assignment be reappraised. To do this:
+Fill out a reappraisal form, on which you should describe (briefly) what the problem is.
+Email your form off with the course instructor after lecture or during office hours.
+For each assignment there is a deadline of two weeks after the marks are made available for reappraisal requests.
+Reference Material:
+Extra Reading Material on C, Git Primer and Threads
+Revision Control: Git
+Git Magic.
+Git Reference.
+Git Manual.
+Git Tutorial.
+Links to the Pro Git Book, references, vidoes and more.
+Debugging: GDB Online Documentation
+Sys/161 machine simulator reference: MIPS R3000 Software Reference Manual
+ELF (Executable and Linking Format) Specification
+An Introduction to Programming with Threads, by Andrew Birrell
+OS/161 Information
+OS/161 Essentials
+OS/161 Installation Guide for the student.cs computing environment.
+OS/161 Installation Guide for other machines (follow these instructions when working from home).
+Working with OS/161 - how to build, run, and debug OS/161 kernels.
+Debugging OS/161 with GDB
+OS/161 and tools FAQ, read this if you experience problems when running or installing OS/161.
+Browseable OS/161 man pages, including system call details.
+The sys161 manual, including hardware, running and debugging information.
+Other OS/161 links
+A paper about OS/161 from SIGCSE 2002.
+The OS/161 home page at Harvard.
+Submitting Your Work and Checking Your Submission
+Overview of cs350_submit - how to submit your work and check that it will compile for marking.
+Assignment Specifications:
+Do NOT leave assignments until the last week. Start early!
+Remember: late assignments receive a grade of 0%.
+
+Descriptions of assignments will be made available as the term progresses.
+
+
+Assignment 0
+Due Date: Friday, May 19 Tuesday, May 30, 5:00pm
+Slip days may be used.
+Assignment 0 description.
+Assignment 0 hints. (Read this for useful assignment tips)
+
+Assignment 1
+Due Date: Friday, June 9 Monday, June 12, 5:00 pm
+Slip days may be used.
+Assignment 1 description.
+Assignment 1 hints.
+
+Assignment 2a
+Due Date: Friday, June 30, 5:00 pm
+Slip days may be used.
+
+Assignment 2b
+Due Date: Friday, July 14, 5:00 pm
+Slip days may be used.
+
+Assignment 3
+Due Date: Friday, July 28, 11:59 pm
+Slip days may be used.
